@@ -8,3 +8,5 @@ git checkout -b 本地分支名x origin/远程分支名
 git fetch origin 远程分支名x:本地分支名x
 
 2.删除远程分支： git push origin --delete Su-modify 3.
+
+3.如果并不想让远程仓库上的分支叫做 serverfix，可以运行 git push origin serverfix:awesomebranch 来将本地的 serverfix 分支推送到远程仓库上的 awesomebranch 分支。
